@@ -1,0 +1,175 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* ---- Header ---- */
+/* line 12, ../sass/screen.scss */
+header {
+  width: 720px;
+  margin: 80px auto 0 auto;
+}
+/* line 15, ../sass/screen.scss */
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #272727;
+  text-shadow: 0 1px 0 #fff;
+}
+/* line 21, ../sass/screen.scss */
+header p {
+  margin: 20px 0 0 3px;
+  font-size: 14px;
+  color: #272727;
+}
+
+/* ---- Body ---- */
+/* line 29, ../sass/screen.scss */
+body {
+  background: url(../images/body-pattern.jpg) top left repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+}
+
+/* ---- Main Area ---- */
+/* line 36, ../sass/screen.scss */
+#main {
+  position: relative;
+  width: 700px;
+  margin: 50px auto 0 auto;
+  padding: 20px 0 0 25px;
+  background: url(../images/main-content-pattern.jpg) top left repeat;
+}
+
+/* ---- Links ---- */
+/* line 46, ../sass/screen.scss */
+#links {
+  width: 700px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaa;
+  line-height: 18px;
+  overflow: hidden;
+}
+/* line 53, ../sass/screen.scss */
+#links a {
+  position: relative;
+  color: #aaa;
+  text-decoration: none;
+}
+/* line 57, ../sass/screen.scss */
+#links a :hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+/* line 64, ../sass/screen.scss */
+.home, .support, .browser, .books, .download, .ups {
+  float: left;
+  width: 180px;
+  margin-left: 42px;
+  padding-left: 25px;
+}
+
+/* line 71, ../sass/screen.scss */
+.home {
+  background: url(../images/home.png) left center no-repeat;
+  margin-left: 0;
+}
+
+/* line 72, ../sass/screen.scss */
+.support {
+  background: url(../images/support.png) left center no-repeat;
+}
+
+/* line 73, ../sass/screen.scss */
+.browser {
+  background: url(../images/browser.png) left center no-repeat;
+  clear: right;
+}
+
+/* line 75, ../sass/screen.scss */
+.books, .download, .ups {
+  margin-top: 10px;
+}
+
+/* line 77, ../sass/screen.scss */
+.books {
+  background: url(../images/books.png) left center no-repeat;
+  margin-left: 0;
+}
+
+/* line 78, ../sass/screen.scss */
+.download {
+  background: url(../images/download.png) left center no-repeat;
+}
+
+/* line 79, ../sass/screen.scss */
+.ups {
+  background: url(../images/ups.png) left center no-repeat;
+  clear: right;
+}

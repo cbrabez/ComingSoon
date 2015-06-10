@@ -1,0 +1,79 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$font-stack:  Arial, Helvetica, sans-serif;
+
+/* ---- Header ---- */
+
+header {
+  width: 720px;
+  margin: 80px auto 0 auto;
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #272727;
+    text-shadow: 0 1px 0 #fff;
+  }
+  p {
+    margin: 20px 0 0 3px;
+    font-size: 14px;
+    color: #272727;
+  }
+}
+
+/* ---- Body ---- */
+body {
+  background: url(../images/body-pattern.jpg) top left repeat;
+  font-family: $font-stack;
+  padding-bottom: 40px;
+}
+
+/* ---- Main Area ---- */
+#main {
+  position: relative;
+  width: 700px;
+  margin: 50px auto 0 auto;
+  padding: 20px 0 0 25px;
+  background: url(../images/main-content-pattern.jpg) top left repeat;
+}
+
+/* ---- Links ---- */
+
+#links {
+  width: 700px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaa;
+  line-height: 18px;
+  overflow: hidden;
+  a {
+    position: relative;
+    color: #aaa;
+    text-decoration: none;
+    :hover {
+      color: #aaa;
+      text-decoration: none;
+    }
+  }
+}
+
+.home, .support, .browser, .books, .download, .ups {
+  float: left;
+  width: 180px;
+  margin-left: 42px;
+  padding-left: 25px;
+}
+
+.home { background: url(../images/home.png) left center no-repeat; margin-left: 0; }
+.support { background: url(../images/support.png) left center no-repeat; }
+.browser { background: url(../images/browser.png) left center no-repeat; clear: right; }
+
+.books, .download, .ups { margin-top: 10px; }
+
+.books { background: url(../images/books.png) left center no-repeat; margin-left: 0; }
+.download { background: url(../images/download.png) left center no-repeat; }
+.ups { background: url(../images/ups.png) left center no-repeat; clear: right; }
