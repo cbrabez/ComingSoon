@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,79 +21,66 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
-  line-height: 1;
-}
+  line-height: 1; }
 
-/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
+  quotes: none; }
+  /* line 103, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
 
-/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
-  border: none;
-}
+  border: none; }
 
-/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
+  display: block; }
 
 /* ---- Header ---- */
 /* line 12, ../sass/screen.scss */
 header {
   width: 720px;
-  margin: 80px auto 0 auto;
-}
-/* line 15, ../sass/screen.scss */
-header h1 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #272727;
-  text-shadow: 0 1px 0 #fff;
-}
-/* line 21, ../sass/screen.scss */
-header p {
-  margin: 20px 0 0 3px;
-  font-size: 14px;
-  color: #272727;
-}
+  margin: 80px auto 0 auto; }
+  /* line 15, ../sass/screen.scss */
+  header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #272727;
+    text-shadow: 0 1px 0 #fff; }
+  /* line 21, ../sass/screen.scss */
+  header p {
+    margin: 20px 0 0 3px;
+    font-size: 14px;
+    color: #272727; }
 
 /* ---- Body ---- */
 /* line 29, ../sass/screen.scss */
 body {
   background: url(../images/body-pattern.jpg) top left repeat;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 40px;
-}
+  padding-bottom: 40px; }
 
 /* ---- Main Area ---- */
 /* line 36, ../sass/screen.scss */
@@ -102,8 +89,7 @@ body {
   width: 700px;
   margin: 50px auto 0 auto;
   padding: 20px 0 0 25px;
-  background: url(../images/main-content-pattern.jpg) top left repeat;
-}
+  background: url(../images/main-content-pattern.jpg) top left repeat; }
 
 /* ---- Links ---- */
 /* line 46, ../sass/screen.scss */
@@ -113,63 +99,320 @@ body {
   font-weight: bold;
   color: #aaa;
   line-height: 18px;
-  overflow: hidden;
-}
-/* line 53, ../sass/screen.scss */
-#links a {
-  position: relative;
-  color: #aaa;
-  text-decoration: none;
-}
-/* line 57, ../sass/screen.scss */
-#links a :hover {
-  color: #aaa;
-  text-decoration: none;
-}
+  overflow: hidden; }
+  /* line 53, ../sass/screen.scss */
+  #links a {
+    position: relative;
+    color: #aaa;
+    text-decoration: none; }
+    /* line 57, ../sass/screen.scss */
+    #links a :hover {
+      color: #aaa;
+      text-decoration: none; }
 
 /* line 64, ../sass/screen.scss */
 .home, .support, .browser, .books, .download, .ups {
   float: left;
   width: 180px;
   margin-left: 42px;
-  padding-left: 25px;
-}
+  padding-left: 25px; }
 
 /* line 71, ../sass/screen.scss */
 .home {
   background: url(../images/home.png) left center no-repeat;
-  margin-left: 0;
-}
+  margin-left: 0; }
 
 /* line 72, ../sass/screen.scss */
 .support {
-  background: url(../images/support.png) left center no-repeat;
-}
+  background: url(../images/support.png) left center no-repeat; }
 
 /* line 73, ../sass/screen.scss */
 .browser {
   background: url(../images/browser.png) left center no-repeat;
-  clear: right;
-}
+  clear: right; }
 
 /* line 75, ../sass/screen.scss */
 .books, .download, .ups {
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 /* line 77, ../sass/screen.scss */
 .books {
   background: url(../images/books.png) left center no-repeat;
-  margin-left: 0;
-}
+  margin-left: 0; }
 
 /* line 78, ../sass/screen.scss */
 .download {
-  background: url(../images/download.png) left center no-repeat;
-}
+  background: url(../images/download.png) left center no-repeat; }
 
 /* line 79, ../sass/screen.scss */
 .ups {
   background: url(../images/ups.png) left center no-repeat;
-  clear: right;
+  clear: right; }
+
+/* --- Counter --- */
+
+.countdownHolder{
+  padding-top: 2em;
+  width:450px;
+  margin:0 auto;
+  font: 40px/1.5 'Open Sans Condensed',sans-serif;
+  text-align:center;
+  letter-spacing:-3px;
+}
+
+.position{
+  display: inline-block;
+  height: 1.6em;
+  overflow: hidden;
+  position: relative;
+  width: 1.05em;
+}
+
+.digit{
+  position:absolute;
+  display:block;
+  width:1em;
+  background-color:#444;
+  border-radius:0.2em;
+  text-align:center;
+  color:#fff;
+  letter-spacing:-1px;
+}
+
+.digit.static{
+  box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);
+  
+  background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+  
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.5, #3A3A3A),
+    color-stop(0.5, #444444)
+  );
+}
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+  display:inline-block;
+  width:16px;
+  height:1.6em;
+  position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+  position:absolute;
+  width:5px;
+  height:5px;
+  background-color:#444;
+  border-radius:50%;
+  left:50%;
+  margin-left:-3px;
+  top:0.5em;
+  box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);
+  content:'';
+}
+
+.countDiv:after{
+  top:0.9em;
+}
+
+.Hours { margin-left: 5px; }
+.Seconds { margin-left: 2px; }
+
+/* ---- Subscription Form ---- */
+ 
+form {
+    position: relative;
+    margin: 40px auto 0 auto;
+}
+
+.email {
+    width: 498px;
+    height: 35px;
+    padding: 0 15px;
+    background: #f1f1f1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.02)), to(rgba(0,0,0,.02)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    border: 1px solid #cbcbcb;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #b3b2b2;
+    font-style: italic;
+}
+
+.email:focus {
+    outline: 0;
+    border: 1px solid #c0c0c0;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+}
+
+.submit {
+    width: 140px;
+    height: 37px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    background: #888;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    border: 1px solid #636363;
+    -moz-box-shadow:
+        0 1px 2px 0 rgba(253,252,252,.35) inset,
+        0 -1px 2px 0 rgba(0,0,0,.15) inset;
+    -webkit-box-shadow:
+        0 1px 2px 0 rgba(253,252,252,.35) inset,
+        0 -1px 2px 0 rgba(0,0,0,.15) inset;
+    box-shadow:
+        0 1px 2px 0 rgba(253,252,252,.35) inset,
+        0 -1px 2px 0 rgba(0,0,0,.15) inset;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.35);
+    line-height: 13px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
+}
+ 
+.submit:active {
+    -moz-box-shadow:
+        0 1px 2px 0 rgba(0,0,0,.15) inset,
+        0 3px 13px 3px rgba(0,0,0,.3) inset;
+    -webkit-box-shadow:
+        0 1px 2px 0 rgba(0,0,0,.15) inset,
+        0 3px 13px 3px rgba(0,0,0,.3) inset;
+    box-shadow:
+        0 1px 2px 0 rgba(0,0,0,.15) inset,
+        0 3px 13px 3px rgba(0,0,0,.3) inset;
+    color: #ddd;
+}
+
+.popup {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 140px;
+    padding: 10px;
+    background: #e7e7e7;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #888;
+}
+
+/* ---- Footer ---- */
+ 
+footer {
+    width: 700px;
+    margin: 0 auto;
+    padding: 35px 0 25px 0;
+    overflow: hidden;
+}
+ 
+footer ul {
+    float: right;
+    width: 125px;
+    height: 22px;
+}
+ 
+footer ul li {
+    float: left;
+}
+ 
+footer a {
+    position: relative;
+    display: block;
+    margin-left: 10px;
+}
+ 
+.digg {
+    width: 10px;
+    height: 16px;
+    background: url(../images/digg.png) center center no-repeat;
+}
+ 
+.twitter {
+    width: 21px;
+    height: 16px;
+    background: url(../images/twitter.png) center center no-repeat;
+}
+ 
+.vimeo {
+    width: 16px;
+    height: 16px;
+    background: url(../images/vimeo.png) center center no-repeat;
+}
+ 
+.skype {
+    width: 16px;
+    height: 16px;
+    background: url(../images/skype.png) center center no-repeat;
+}
+
+.social-media-arrow {
+    position: absolute;
+    top: 125px;
+    right: -95px;
+    width: 108px;
+    height: 256px;
+    background: url(../images/social-media-arrow.png) top left no-repeat;
+}
+
+.email {
+    line-height: 35px;
 }
